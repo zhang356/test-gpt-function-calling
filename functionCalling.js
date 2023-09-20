@@ -1,7 +1,7 @@
 import { ChatOpenAI } from "langchain/chat_models/openai";
 import { HumanMessage, ChatMessage, SystemMessage, FunctionMessage, AIMessage } from "langchain/schema";
 
-const OPENAI_API_KEY="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";
+const OPENAI_API_KEY="";
 
 const extractionFunctionSchema = {
     name: "conversation_analyzer",
